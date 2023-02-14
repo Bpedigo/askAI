@@ -1,0 +1,2 @@
+# askAI
+This is a Node.js application that uses the Express framework to create a web server. It listens for incoming HTTP requests on port 3000 and responds to GET requests with an HTML page rendered using EJS templating. It also responds to POST requests by passing the input received from the client to a function called askDavinic to get an answer, and then renders the same HTML page with the answer displayed. The askDavinic function is a function that uses OpenAI's API to generate a response to a given input.
